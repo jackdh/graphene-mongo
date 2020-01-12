@@ -21,7 +21,9 @@ Create a virtual environment.
 ```bash
 # Create a virtualenv in which we can install the dependencies
 virtualenv env
-source env/bin/activate
+source env/bin/activate  # Linux / POSIX
+# OR
+env/bin/activate # Windows
 ```
 
 Now we can install our dependencies:
